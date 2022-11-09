@@ -1,0 +1,8 @@
+# output
+/dist
+
+# dependencies
+/node_modules
+
+# misc
+/.env

@@ -1,0 +1,10 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "concurrently \"yarn --cwd ./client dev\" \"yarn --cwd ./server dev\""
+	},
+	"workspaces": [
+		"server",
+		"client"
+	]
+}
